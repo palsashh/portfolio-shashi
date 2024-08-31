@@ -1,0 +1,57 @@
+/* Resume.css */
+.resume-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    height: 100vh;
+}
+
+.resume-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 900px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.resume-viewer {
+    width: 100%;
+    height: 60vh;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.resume-download {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resume-download a {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.resume-download a:hover {
+    background-color: #0056b3;
+}

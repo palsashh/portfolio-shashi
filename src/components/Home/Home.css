@@ -1,0 +1,106 @@
+.home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 150px 40px 40px 40px;
+}
+
+.greet {
+    display: inline;
+    color: grey;
+    font-size: 1.5rem;
+}
+
+.name {
+    color: orange;
+    font-size: 6rem;
+    text-shadow: 2px 2px 4px rgba(248, 248, 246, 0.3);
+}
+
+.role {
+    color: white;
+    padding: 10px;
+    font-size: 2.5rem;
+}
+
+.tagline {
+    font-size: 2rem;
+    color: rgb(8, 104, 160);
+    margin: 0;
+    font-weight: 600;
+}
+
+.connect {
+    text-align: center;
+}
+
+.connect-btn {
+    padding: 10px 20px;
+    border-radius: 6px;
+    margin: 40px 0;
+    font-size: 1.5rem;
+    box-shadow: 1px 6px 1px rgb(8, 104, 160);
+    border: 2px solid #052f44;
+    cursor: pointer;
+}
+
+.connect-btn:hover {
+    color: #ffffff;
+    background-color: #578db6;
+    box-shadow: 1px 6px 1px rgb(255, 255, 255);
+    border: 2px solid #ffffff;
+}
+
+.hello img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+@media (max-width: 1024px) {
+
+    .name {
+        font-size: 5.8rem;
+    }
+
+    .tagline {
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        flex-direction: column;
+    }
+
+    .text-container {
+        text-align: center;
+    }
+
+    .name {
+        font-size: 5.6rem;
+    }
+
+    .tagline {
+        font-size: 1.8rem;
+        line-height: 1;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .name,
+    .role,
+    .tagline {
+        padding-top: 20px;
+        line-height: 0.9;
+    }
+
+    .name {
+        font-size: 5.4rem;
+    }
+
+    .tagline {
+        font-size: 1.7rem;
+    }
+}
